@@ -1,0 +1,21 @@
+TicTacToe.java
+
+by John Bettonville
+
+Originally submitted for grading on 2002-10-09
+
+This program allows a user to play Tic Tac Toe against a computer opponent.
+
+The computer opponent is not a perfect opponent, and will occasionally lose to a
+human player. The computer's moves are governed by these rules:
+
+1. If the center space is empty, choose the center space.
+2. If the computer has two spaces in a row, choose the space that results in a win.
+3. If the human has two spaces in a row, choose the space that blocks the human.
+4. If none of these conditions are true, choose a random available space.
+
+To compile:
+javac TicTacToe.java
+
+To run:
+java TicTacToe
